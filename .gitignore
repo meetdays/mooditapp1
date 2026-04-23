@@ -1,0 +1,40 @@
+# ===== Node / React Native =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.expo/
+.metro-health-check*
+*.log
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Android (RN project) =====
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+android/.idea/
+android/captures/
+
+# ===== Root Android template module (if unused) =====
+app/build/
+app/.cxx/
+app/src/androidTest/
+app/src/test/
+
+# ===== Gradle caches in repo =====
+**/.gradle/
+.gradle/
+
+# ===== Misc =====
+coverage/
+dist/
+tmp/
+temp/
